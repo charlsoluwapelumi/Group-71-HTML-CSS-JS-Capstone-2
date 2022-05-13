@@ -68,6 +68,73 @@ a {
     color: coral;
 }
 
+.form {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form .checkbox {
+    font-weight: 400;
+}
+
+.form .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form .form-control:focus {
+    z-index: 2;
+}
+
+.top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+  
+.middle {
+    border-radius: 0;
+    margin: 0 0 -1px 0;
+}
+
+/* Style the input container */
+.input-container {
+    display: flex;
+    width: 100%;
+}
+  
+/* Style the form icons */
+.icon {
+    padding: 10px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+}
+
+.radio {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+  
+.btn {
+    width: 100%;
+    /* margin: 0 50px; */
+}
+
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
