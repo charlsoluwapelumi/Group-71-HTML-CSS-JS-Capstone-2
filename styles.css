@@ -77,11 +77,22 @@ a {
     color: #fff;
 }
 
+#password {
+    border-right: none;
+}
+
+.eye-input {
+    background-color: transparent;
+    border-left;: none;
+}
+
 #eye {
     color: rgb(95, 73, 65);
-    position: absolute;
+    /* position: absolute;
     right: 30px;
     bottom: 395px;
+    z-index: 3;
+    margin: 7px 0 0 900px; */
 }
 
 .btn {
