@@ -2,7 +2,6 @@ const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const eye = document.querySelector("#eye");
 const password = document.querySelector("#password");
-const type = password.getAttribute("type")
 
 hamburger.addEventListener("click", mobileMenu);
 
@@ -22,7 +21,7 @@ function closeMenu() {
 
 eye.addEventListener("click", function () {
     // toggle the type attribute
-    type === "password" ? "text" : "password";
+    const type = password.getAttribute("type") === "password" ? "text" : "password";
     password.setAttribute("type", type);
     
     // toggle the icon
